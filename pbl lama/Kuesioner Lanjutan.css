@@ -1,0 +1,189 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+   
+
+    #TabelKuisioner {
+        border: 1px solid black;
+        background-color:white;
+        width:800px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        height:auto;
+        margin: auto;
+        margin-top: 30px;
+        padding:20px 20px 20px 20px;
+        box-shadow:0 0 10px rgba(0,0,0,.25)
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="number"] {
+    width: 415px;
+    height: 63px;
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    width: 415px;
+    height: 63px;
+    border-radius: 20px;
+}
+
+input[type="radio"] {
+    width: 70px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+
+}
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+body {
+    background-color:  #F3F4F6;
+    margin: 1px;
+}
+.logo img {
+    height: 60px;
+    width: auto;
+    margin-right: 50px;
+    margin-left: 300px;
+}
+
+nav li:last-child {
+    margin-right: 120px;
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav li a:hover {
+    color: #666;
+}
+
+nav .user {
+    margin-left: auto;
+}
+
+nav .user a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+nav .user a:hover {
+    color: #666;
+
+}
+/* Styling untuk menu utama */
+nav ul {
+    margin-right: 100px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 10px;
+    position: relative;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+    margin-right: 900px;
+}
+
+/* Styling untuk sub-menu */
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+}
+
+nav ul li a {
+    margin-right: 20px;
+}
+
+nav ul ul li {
+    display: block;
+    width: 50px;
+}
+
+nav ul ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+
+
+/* Styling untuk sub-menu User */
+nav ul ul.sub-menu {
+    top: 20px;
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+#icon {
+    margin-left: 300px;
+    margin-bottom: 5px;
+}

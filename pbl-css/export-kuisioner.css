@@ -1,0 +1,209 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+body {
+    background-color:  #F3F4F6;
+    margin: 1px;
+    margin-bottom: 20px;
+}
+.logo img {
+    height: 60px;
+    width: auto;
+    margin-left: 200px;
+    
+}
+
+nav li:last-child {
+    margin-right: 250px;
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav li a:hover {
+    color: #666;
+}
+
+nav .user {
+    margin-left: auto;
+}
+
+nav .user a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+nav .user a:hover {
+    color: #666;
+
+}
+/* Styling untuk menu utama */
+nav ul {
+    
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 10px;
+    position: relative;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+    margin-right: 780px;
+}
+
+/* Styling untuk sub-menu */
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+}
+
+nav ul li a {
+    margin-right: 20px;
+}
+
+nav ul ul li {
+    display: block;
+    width: 50px;
+}
+
+nav ul ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+
+
+/* Styling untuk sub-menu User */
+nav ul ul.sub-menu {
+    top: 20px;
+}
+
+nav li:hover > ul {
+    display: block;
+}
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+#icon2 {
+    margin-left: 300px;
+    margin-bottom: 5px;
+}
+#icon {
+  margin-top: 19px;
+    
+}
+
+
+
+#container {
+
+    background-color: white;
+    width: 1300px;
+    border-radius: 11px;
+    height: auto;
+    margin: 60px auto auto;
+    padding: 20px ;
+    box-shadow: 0 0 2px rgba(0,0,0,.25);
+   
+}
+
+
+
+
+  .delete-container {
+   
+      text-align: center;
+      margin:auto;
+     
+      border-radius: 20px;
+  
+      padding: 20px;
+  
+      box-sizing: border-box;
+  
+      
+      width: 50%;
+      height: 260px;
+  
+      background: white;
+      border: 1px solid rgba(159, 159, 159, 0.6);
+      
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.25));
+      
+  
+  }
+  .circle-container {
+    width: 100px; /* Ubah sesuai kebutuhan Anda */
+    height: 100px; /* Ubah sesuai kebutuhan Anda */
+    border-radius: 50%;
+    background-color: #ffffff; /* Ubah sesuai kebutuhan Anda */
+    border: 1px solid rgba(159, 159, 159, 0.6);
+    float: right;
+    margin-top: -70px;
+    margin-right: 60px;
+  }
+  .button-container {
+    margin-top: 40px;
+}
+
+.cancel-button {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid rgba(19, 19, 19, 0.6);
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+     margin-left: 480px;
+    
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.25));
+    
+    
+}
+   
+.confirmation-text {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+button a {
+    color: inherit; /* Mewarisi warna teks dari elemen induk */
+    text-decoration: none; /* Menghapus garis bawah */
+    
+  }
